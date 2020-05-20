@@ -1,0 +1,2 @@
+# trainer
+Exercises for candidates
