@@ -3,7 +3,7 @@
 ![](https://i.ibb.co/THF3r0h/hunters-trainer.png)
 
 
-## Excersise #1 - Airflow
+## Exercise #1 - Airflow
 ### Scope
 The exercise is intended for people who are unfamiliar with Airflow. If you know it already - let us know and another exercise would be tailored for you.
 
