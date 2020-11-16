@@ -1,7 +1,0 @@
-{"domain": "dnsexfil.ru", "features": [{"subdomain_entropy": 0.75}], "ts": 1538926908783, "primary_domain": "dnsexfil.ru"}
-{"domain": "z.com", "features": [{"avg_query_len": 8.4}], "ts": 1538926908783, "primary_domain": "z.com"}
-{"domain": "facebook.com", "features": [{"alexa": 8987.0}], "ts": 1538926908783, "primary_domain": "facebook.com"}
-{"domain": "signin.paypal.com", "features": [{"avg_lmw_len": 0.0}], "ts": 1538926908783, "primary_domain": "paypal.com"}
-{"domain": "stream.app.paypal.com", "features": [{"subdomain_entropy": 0.92}], "ts": 1538926908783, "primary_domain": "paypal.com"}
-{"domain": "paypal.com", "features": [{"alexa": 193822.0, "alexa_stability": 1.0}], "ts": 1538926908783, "primary_domain": "paypal.com"}
-{"domain": "really.long.subdomain.com", "features": [ {"config_id_count": 60.0}, {"ips_num_sets": 2.0}, {"ips_cc_count": 5.0}, {"as_ip_ratio": 0.5}, {"cc_ip_ratio": 1.0}], "ts": 1538926908783, "primary_domain": "subdomain.com"}
