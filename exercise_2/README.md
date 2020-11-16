@@ -55,7 +55,7 @@ Be careful not to hit "out of memory" exceptions in production!
 
 Please fill the implementation in [Logic::newSnapsho()](src/main/scala/com/example/exercise/Logic.scala)
 
-In order to run with the example inputs you can run: [Logic::newSnapshot](src/test/scala/com/example/exercise/MyTest.scala)
+In order to run with the example inputs you can run: [MyTest](src/test/scala/com/example/exercise/MyTest.scala)
 
 Do note that the example json files are only for help and the solution should represent much bigger data sets in Production (see numbers above).
 
