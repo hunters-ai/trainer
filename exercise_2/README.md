@@ -10,7 +10,7 @@
 We have a huge snapshot of all the domains in the world and their features, i.e. things we know about them.
 We would like to create a batch job that every hour merges a new batch of domains and their features (aka update), some could be new domains that do not exist in the snapshot and some could be existing domains that already appear in the snapshot.
 * Size of snapshot: 10TB
-* Size of new batch of domains that need to be merged: ~20MB
+* Size of new batch of domains that need to be merged: 10MB
 
 An example schema for the data: 
 
@@ -20,7 +20,7 @@ val snapshotSchema = new StructType()
     .add(“features”, MapType(StringType, DoubleType))
 ```
 
-We would like features to propagate from father domain, e.g. paypal.com to subdomain, e.g. signing.paypal.com. But not the other way around.
+We would like features to propagate from father domain, e.g. `paypal.com` to subdomain, e.g. `signing.paypal.com`. But not the other way around.
 In case of conflict, where a domain appears in both the snapshot and the update and some features appear in both - you should take the newer features from the update (but make sure to not lose existing features).
 
 Example:
