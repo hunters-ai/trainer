@@ -1,0 +1,40 @@
+{"domain": "paypal.com", "features": [{"is_sinkholed": 0.0}], "ts": 1538926908783, "primary_domain": "paypal.com"}
+{"domain": "all.paypal.com", "features": [{"alexa_rate": 100000.0},{"alexa_stability": 0.0},{"avg_lmw_len": 0.0}], "ts": 1538926908783, "primary_domain": "paypal.com"}
+{"domain": "mal-paypal.com", "features": [{"domain_users": 567.0}, {"infected_users": 567.0}], "ts": 1538926908783, "primary_domain": "mal-paypal.com"}
+{"domain": "app.paypal.com", "features": [{"infected_users": 0.0}], "ts": 1538926908783, "primary_domain": "paypal.com"}
+{"domain": "stream.app.paypal.com", "features": [{"subdomain_entropy": 0.89}], "ts": 1538926908783, "primary_domain": "paypal.com"}
+{"domain": "d.com", "features": [{"is_sinkholed": 0.0}, {"alexa": 194792383.0}], "ts": 1538926908783, "primary_domain": "d.com"}
+{"domain": "sub.d.com", "features": [{"is_sinkholed": 0.0}], "ts": 1538926908783, "primary_domain": "d.com"}
+{"domain": "dnsexfil.ru", "features": [{"subdomain_entropy": 0.27}], "ts": 1538926908783, "primary_domain": "dnsexfil.ru"}
+{"domain": "really.really.really.long.subdomain.com", "features": [{"alexa": -1.0}, {"config_id_count": 50.0}, {"ips_num_sets": 2.0}, {"ips_cc_count": 4.0}, {"as_ip_ratio": 0.01}, {"cc_ip_ratio": 1.0}], "ts": 1538926908783, "primary_domain": "subdomain.com"}
+{"domain": "e.com", "features": [{"unique_subdomains_count": 567.0}, {"infected_users": 567.0}], "ts": 1538926908783, "primary_domain": "e.com"}
+{"domain": "mal.ru", "features": [{"unique_subdomains_count": 567.0}, {"infected_users": 567.0}], "ts": 1538926908783, "primary_domain": "mal.ru"}
+{"domain": "mal.ru", "features": [{"unique_subdomains_count": 567.0}, {"infected_users": 567.0}], "ts": 1538926908783, "primary_domain": "mal.ru"}
+{"domain": "f.com", "features": [{"is_sinkholed": 0.0}, {"avg_query_len": 0.099}], "ts": 1538926908783, "primary_domain": "f.com"}
+{"domain": "z.com", "features": [{"is_sinkholed": 0.0}], "ts": 1538926908783, "primary_domain": "z.com"}
+{"domain": "risky.ru", "features": [{"is_sinkholed": 1.0}], "ts": 1538926908783, "primary_domain": "risky.ru"}
+{"domain": "a.com", "features": [{"is_sinkholed": 1.0}, {"avg_query_len": 0.099}], "ts": 1538926908783, "primary_domain": "a.com"}
+{"domain": "compute-1.amazonaws.com", "features": [{"domain_users": 567.0}, {"infected_users": 567.0}], "ts": 1538926908783, "primary_domain": "amazonaws.com"}
+{"domain": "b.com", "features": [{"is_sinkholed": 0.0}], "ts": 1538926908783, "primary_domain": "b.com"}
+{"domain": "facebook.com", "features": [{"alexa": 10000.0}], "ts": 1538926908783, "primary_domain": "facebook.com"}
+{"domain": "a.facebook.com", "features": [{"alexa": 10000.0}], "ts": 1538926908783, "primary_domain": "facebook.com"}
+{"domain": "b.facebook.com", "features": [{"alexa": 10000.0}], "ts": 1538926908783, "primary_domain": "facebook.com"}
+{"domain": "c.facebook.com", "features": [{"alexa": 10000.0}], "ts": 1538926908783, "primary_domain": "facebook.com"}
+{"domain": "d.facebook.com", "features": [{"alexa": 10000.0}], "ts": 1538926908783, "primary_domain": "facebook.com"}
+{"domain": "e.facebook.com", "features": [{"alexa": 10000.0}], "ts": 1538926908783, "primary_domain": "facebook.com"}
+{"domain": "f.facebook.com", "features": [{"alexa": 10000.0}], "ts": 1538926908783, "primary_domain": "facebook.com"}
+{"domain": "g.facebook.com", "features": [{"alexa": 10000.0}], "ts": 1538926908783, "primary_domain": "facebook.com"}
+{"domain": "h.facebook.com", "features": [{"alexa": 10000.0}], "ts": 1538926908783, "primary_domain": "facebook.com"}
+{"domain": "i.facebook.com", "features": [{"alexa": 10000.0}], "ts": 1538926908783, "primary_domain": "facebook.com"}
+{"domain": "j.facebook.com", "features": [{"alexa": 10000.0}], "ts": 1538926908783, "primary_domain": "facebook.com"}
+{"domain": "k.facebook.com", "features": [{"alexa": 10000.0}], "ts": 1538926908783, "primary_domain": "facebook.com"}
+{"domain": "l.facebook.com", "features": [{"alexa": 10000.0}], "ts": 1538926908783, "primary_domain": "facebook.com"}
+{"domain": "m.facebook.com", "features": [{"alexa": 10000.0}], "ts": 1538926908783, "primary_domain": "facebook.com"}
+{"domain": "n.facebook.com", "features": [{"alexa": 10000.0}], "ts": 1538926908783, "primary_domain": "facebook.com"}
+{"domain": "o.facebook.com", "features": [{"alexa": 10000.0}], "ts": 1538926908783, "primary_domain": "facebook.com"}
+{"domain": "p.facebook.com", "features": [{"alexa": 10000.0}], "ts": 1538926908783, "primary_domain": "facebook.com"}
+{"domain": "q.facebook.com", "features": [{"alexa": 10000.0}], "ts": 1538926908783, "primary_domain": "facebook.com"}
+{"domain": "r.facebook.com", "features": [{"alexa": 10000.0}], "ts": 1538926908783, "primary_domain": "facebook.com"}
+{"domain": "s.facebook.com", "features": [{"alexa": 10000.0}], "ts": 1538926908783, "primary_domain": "facebook.com"}
+{"domain": "t.facebook.com", "features": [{"alexa": 10000.0}], "ts": 1538926908783, "primary_domain": "facebook.com"}
+
