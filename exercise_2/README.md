@@ -38,5 +38,13 @@ The data in the snapshot may vary - some domains may have a huge number of sub d
 Example of features: number_of_resolved_ips=10, dns_record_ttl_seconds=86400, distinct_users_per_hour=120, entropy=0.75
 
 Please write down all of your considerations in comments - why you chose certain paths
-
 Be careful not to hit "out of memory" exceptions in production!
+
+### How to run
+
+Please fill the implementation in [Logic::newSnapsho()](src/main/scala/com/example/exercise/Logic.scala)
+
+In order to run with the example inputs you can run: [Logic::newSnapshot](src/test/scala/com/example/exercise/MyTest.scala)
+
+Do note that the example json files are only for help and the solution should represent much bigger data sets in Production (see numbers above).
+
