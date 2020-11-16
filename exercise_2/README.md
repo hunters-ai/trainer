@@ -33,8 +33,8 @@ malicious.my-paypal.com
 ```
 
 In the above example, features should  only propagate:
-1. from paypal.com to all 3 subdomains: signing.paypal.com, app.paypal.com, stream.app.paypal.com
-2. from  app.paypal.com to stream.app.paypal.com
+1. from paypal.com to all 3 subdomains: `signing.paypal.com`, `app.paypal.com`, `stream.app.paypal.com`
+2. from  `app.paypal.com` to `stream.app.paypal.com`
 
 
 The data in the snapshot may vary - some domains may have a huge number of sub domains (one domain could take 10% of the snapshot) and some domains may have no subdomains at all.
