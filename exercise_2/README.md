@@ -49,7 +49,6 @@ entropy=0.75
 ```
 
 Please write down all of your considerations in comments - why you chose certain paths.
-Be careful not to hit "out of memory" exceptions in production!
 
 ### How to run
 
