@@ -16,13 +16,18 @@ Try doing it as simple as you can, leveraging Airflow builtin features, and mini
 - Note: You should be fine running it using the default and naive executor, which is the LocalExecutor and not messing up with more complicated ones.
 
 ### Description
+#### Part 1 - Coding
 Create a workflow that runs every 10 minutes and do the following: 
 1. Download the list of AWS public IP address ranges, published by Amazon: https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html
 
-2. If the the publication time is newer than that of the last processed file, then process this one (step 3).
+1. If the publication time is older than the last processed file, this iteration can be halted.
+For simplicity's sake, you're allowed to save a state locally on your computer (e.g., simple file).
 
-- For simplicity's sake, you're allowed to save a state locally on your computer (as a file or whatever you want).
+1. Aggregate for every unique pair of [Region, Service] the amount of `ipv6_prefix` and `ip_prefix` (ipv4) records listed in the scanned file.
 
-3. Aggregate for every unique pair of [Region, Service] the amount of `ipv6_prefix` and `ip_prefix` (ipv4) records listed in the scanned file.
+1. Print the results - it should be visible when looking at Airflow logs. 
 
-4. Print the results - it should be visible when looking at Airflow logs. 
+#### Part 2 - For discussion only
+We would like to upgrade your code and make it a clean dummy proof solution so that non programmers could easily add similar flows.
+1. Which parts of the solution would you make more generic?
+1. Would you use a configuration file? What would it contain? In general terms how would you handle it? 
