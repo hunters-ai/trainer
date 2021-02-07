@@ -5,12 +5,14 @@
 
 ## Exercise #2 - Spark
 
+The following exercise should take around an hour of work
+
 ### Description
 
 We have a huge snapshot of all the domains in the world and their features, i.e. things we know about them.
 We would like to create a batch job that every hour merges a new batch of domains and their features (aka update), some could be new domains that do not exist in the snapshot and some could be existing domains that already appear in the snapshot.
 * Size of snapshot: 10TB
-* Size of new batch of domains that need to be merged: 10MB
+* Estimated size of new batch of domains that need to be merged ~10MB
 
 An example schema for the data: 
 
