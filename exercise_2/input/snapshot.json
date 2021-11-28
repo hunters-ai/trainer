@@ -1,8 +1,8 @@
-{"domain": "paypal.com", "features": [{"is_sinkholed": 0.0}], "ts": 1538926908783, "primary_domain": "paypal.com"}
-{"domain": "all.paypal.com", "features": [{"alexa_rate": 100000.0},{"alexa_stability": 0.0},{"avg_lmw_len": 0.0}], "ts": 1538926908783, "primary_domain": "paypal.com"}
+{"domain": "paypal.com", "features": [{"alexa": 100000.0}, {"alexa_rate": 100000.0},{"alexa_stability": 0.0},{"avg_lmw_len": 0.0}], "ts": 1538926908783, "primary_domain": "paypal.com"}
+{"domain": "all.paypal.com", "features": [{"abnormality_deviation": 0.123},{"alexa_rate": 100000.0},{"alexa_stability": 0.0},{"avg_lmw_len": 0.0}], "ts": 1538926908783, "primary_domain": "paypal.com"}
 {"domain": "mal-paypal.com", "features": [{"domain_users": 567.0}, {"infected_users": 567.0}], "ts": 1538926908783, "primary_domain": "mal-paypal.com"}
-{"domain": "app.paypal.com", "features": [{"infected_users": 0.0}], "ts": 1538926908783, "primary_domain": "paypal.com"}
-{"domain": "stream.app.paypal.com", "features": [{"subdomain_entropy": 0.89}], "ts": 1538926908783, "primary_domain": "paypal.com"}
+{"domain": "app.paypal.com", "features": [{"infected_users": 0.0},{"alexa_rate": 100000.0},{"alexa_stability": 0.0}], "ts": 1538926908783, "primary_domain": "paypal.com"}
+{"domain": "stream.app.paypal.com", "features": [{"subdomain_entropy": 0.89}, {"alexa_rate": 100000.0},{"alexa_stability": 0.0}], "ts": 1538926908783, "primary_domain": "paypal.com"}
 {"domain": "d.com", "features": [{"is_sinkholed": 0.0}, {"alexa": 194792383.0}], "ts": 1538926908783, "primary_domain": "d.com"}
 {"domain": "sub.d.com", "features": [{"is_sinkholed": 0.0}], "ts": 1538926908783, "primary_domain": "d.com"}
 {"domain": "dnsexfil.ru", "features": [{"subdomain_entropy": 0.27}], "ts": 1538926908783, "primary_domain": "dnsexfil.ru"}
