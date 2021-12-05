@@ -10,7 +10,8 @@ The following exercise should take around an hour of work
 ### Description
 
 We have a huge snapshot of all the domains in the world and their features, i.e. things we know about them.
-We would like to create a batch job that every hour merges a new batch of domains and their features (aka update), some could be new domains that do not exist in the snapshot and some could be existing domains that already appear in the snapshot.
+We would like to create a batch job that every hour merges a new batch of domains and their features (aka update), 
+some could be new domains that do not exist in the snapshot and some could be existing domains that already appear in the snapshot.
 * Size of snapshot: 10TB
 * Estimated size of new batch of domains that need to be merged ~10MB
 
@@ -22,8 +23,12 @@ val snapshotSchema = new StructType()
     .add(“features”, MapType(StringType, DoubleType))
 ```
 
-We would like features to propagate from father domain, e.g. `paypal.com` to subdomain, e.g. `signing.paypal.com`. But not the other way around.
-In case of conflict, where a domain appears in both the snapshot and the update and some features appear in both - you should take the newer features from the update (but make sure to not lose existing features).
+The resulting new snapshot should contain only a single record per domain that was encountered, and its features should be merged according to the following rules:
+
+1. In case of conflict, where a domain appears in both the snapshot and the update and some features appear in both - you should take the newer features from the update (but make sure to not lose existing features).
+
+2. Since the domain name system is organized in a hierarchical "tree-like" relationship, we would like features to propagate from father domain, e.g. `paypal.com` to subdomain, e.g. `signing.paypal.com`. But not the other way around!
+
 
 Example:
 ```
@@ -35,7 +40,7 @@ malicious.my-paypal.com
 ```
 
 In the above example, features should  only propagate:
-1. from paypal.com to all 3 subdomains: `signing.paypal.com`, `app.paypal.com`, `stream.app.paypal.com`
+1. from `paypal.com` to all 3 subdomains: `signing.paypal.com`, `app.paypal.com`, `stream.app.paypal.com`
 2. from  `app.paypal.com` to `stream.app.paypal.com`
 
 
